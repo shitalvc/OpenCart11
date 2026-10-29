@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-11T20:09:54 IST" name="Suite" finished-at="2026-08-11T20:10:23 IST" duration-ms="28620">
+    <groups>
+      <group name="Regression">
+        <method signature="TC1_AccountRegisterationTC.verify_Account_Registeration()[pri:0, instance:testCases.TC1_AccountRegisterationTC@62ddbd7e]" name="verify_Account_Registeration" class="testCases.TC1_AccountRegisterationTC"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TC2_LoginWithAccountTC.verify_Login()[pri:0, instance:testCases.TC2_LoginWithAccountTC@3857f613]" name="verify_Login" class="testCases.TC2_LoginWithAccountTC"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-08-11T20:09:54 IST" name="Test" finished-at="2026-08-11T20:10:23 IST" duration-ms="28620">
+      <class name="testCases.TC1_AccountRegisterationTC">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:testCases.TC1_AccountRegisterationTC@62ddbd7e]" started-at="2026-08-11T20:09:55 IST" name="launch" finished-at="2026-08-11T20:10:11 IST" duration-ms="15807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verify_Account_Registeration()[pri:0, instance:testCases.TC1_AccountRegisterationTC@62ddbd7e]" started-at="2026-08-11T20:10:11 IST" name="verify_Account_Registeration" finished-at="2026-08-11T20:10:15 IST" duration-ms="4096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Account_Registeration -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC1_AccountRegisterationTC@62ddbd7e]" started-at="2026-08-11T20:10:15 IST" name="TearDown" finished-at="2026-08-11T20:10:16 IST" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC1_AccountRegisterationTC -->
+      <class name="testCases.TC2_LoginWithAccountTC">
+        <test-method is-config="true" signature="launch(java.lang.String)[pri:0, instance:testCases.TC2_LoginWithAccountTC@3857f613]" started-at="2026-08-11T20:10:16 IST" name="launch" finished-at="2026-08-11T20:10:20 IST" duration-ms="4264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="verify_Login()[pri:0, instance:testCases.TC2_LoginWithAccountTC@3857f613]" started-at="2026-08-11T20:10:20 IST" name="verify_Login" finished-at="2026-08-11T20:10:23 IST" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testCases.TC2_LoginWithAccountTC@3857f613]" started-at="2026-08-11T20:10:23 IST" name="TearDown" finished-at="2026-08-11T20:10:23 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testCases.TC2_LoginWithAccountTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
